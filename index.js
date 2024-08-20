@@ -30,7 +30,6 @@ const invokeAction = async ({action, id, name, email, phone}) => {
             console.log(contact || `Contact with id ${id} not found`);
             break;
         case "add":
-            console.log(`New contact: ${name}, ${email}, ${phone}...`);
             const newContact = await addContact({name, email, phone});
             console.log("Contact added:", newContact);
             break;
