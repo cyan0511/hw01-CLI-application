@@ -1,0 +1,23 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index",
+    "list": "node index --action list"
+  },
+  "keywords": [],
+  "author": "Cyrus Ducut",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "nanoid": "^5.0.7"
+  }
+}
